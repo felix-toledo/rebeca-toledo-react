@@ -11,17 +11,17 @@ function Header() {
   return (
     <>
       <header className="headerSection">
-        <img src="./assets/Logo.png" alt="Logo" className="logo" />
+        <a href="/"><img src="./assets/Logo.png" alt="Logo" className="logo" /></a>
         <div className="hamburger" onClick={toggleMenu}>
           <div></div>
           <div></div>
           <div></div>
         </div>
         <ul className={`nav ${isOpen ? "active" : ""}`}>
-          <li className="activeColor">INICIO</li>
-          <li>GALERIA</li>
-          <li>BLOG</li>
-          <li>CONTACTO</li>
+          <li><a className="activeColor" href="">INICIO</a></li>
+          <li><a href="">GALERIA</a></li>
+          <li><a href="">BLOG</a></li>
+          <li><a href="">CONTACTO</a></li>
         </ul>
       </header>
     </>

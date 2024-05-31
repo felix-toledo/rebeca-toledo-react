@@ -1,12 +1,12 @@
 import React from "react";
 import ButtonSection from "../sections/buttonSection";
-import Header from "../sections/header";
+import Main from "../sections/mainSection";
 
 function Home() {
   return (
     <>
-      <Header />
       <ButtonSection />
+      <Main />
     </>
   )
 }
