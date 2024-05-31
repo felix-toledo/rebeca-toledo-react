@@ -1,0 +1,32 @@
+.contButton{
+    width: 276px;
+    height: 76px;
+    display: flex;
+    flex-flow: row;
+    gap: 24px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.303)  ;
+    text-decoration: none;
+    border-radius: 1px;
+}
+
+.tdco{
+    margin: auto;
+}
+
+.buttonTitle{
+    font-family: amethysta;
+    color: #044A77;
+    font-size: 14px;
+}
+
+.buttonDescription{
+    font-family: Lato;
+    color: black;
+    font-size: 12px;
+}
+
+/*Make an animation when hover to the button*/
+.contButton:hover{
+    transform: scale(1.01);
+}
+
