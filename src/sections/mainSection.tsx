@@ -3,11 +3,6 @@ import "../styles/main.css";
 import MenuButton from "../components/buttons";
 
 function Main() {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggleMenu = () => {
-    setIsOpen(!isOpen);
-  };
 
   return (
     <>
