@@ -1,0 +1,28 @@
+.aboutMe-container{
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.text-container{
+    width: 30vw;
+}
+
+.video-container video{
+    height: 270px;
+    margin: auto;
+    border-radius: 4px;
+}
+
+.buttons-container-aside{
+    width: 30vw;
+
+}
+
+.buttons-container-aside a{
+    margin: auto;
+    margin-bottom: 20px;
+}
+

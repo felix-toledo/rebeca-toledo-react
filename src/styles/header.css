@@ -5,6 +5,8 @@
     align-items: center;
     padding: 0 86px;
     margin-bottom: 10px;
+    width: 100vw;
+    overflow: hidden;
   }
   
   .logo {
