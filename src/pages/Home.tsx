@@ -2,6 +2,8 @@ import React from "react";
 import ButtonSection from "../sections/buttonSection";
 import Main from "../sections/mainSection";
 import AboutMe from "../sections/aboutMe";
+import Footer from "../sections/footer";
+
 
 function Home() {
   return (
@@ -9,6 +11,7 @@ function Home() {
       <ButtonSection />
       <Main />
       <AboutMe />
+      <Footer />
     </>
   )
 }

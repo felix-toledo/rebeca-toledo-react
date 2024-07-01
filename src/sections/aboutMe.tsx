@@ -3,10 +3,31 @@ import MenuButton from "../components/buttons";
 
 function AboutMe() {
 
+  const todayDate = new Date();
+
+  const rebecasBirthday = new Date(1990, 10, 27);
+
+  var rebecasAge = todayDate.getFullYear() - rebecasBirthday.getFullYear();
+  const month = todayDate.getMonth() - rebecasBirthday.getMonth();
+  if (month < 0 || (month === 0 && todayDate.getDate() < rebecasBirthday.getDate())) {
+    rebecasAge--;
+  }
+  
+  const primerExperiencia = new Date(2020, 1, 1);
+  const aniosExperiencia = todayDate.getFullYear() - primerExperiencia.getFullYear();
+
+  const aboutMe = (
+    <div className="texto-aboutMe">
+      <p>🤚 Mi nombre es Rebeca Toledo, tengo {rebecasAge} años y nací en Corrientes, Argentina!</p>
+      <p>📓 De chica siempre tuve una pasión por la odontología, por lo tanto ingresé en la facultad de odontología de la Universidad Nacional del Nordeste y actualmente cuento con {aniosExperiencia} años de experiencia tratando con pacientes.</p>
+      <p>😷 Siempre realizo estudios de actualización para brindarle lo mejor a mis pacientes, actualmente me encuentro realizando un curso de cirugía dental.</p>
+    </div>
+  );
+  
   return (
     <>
       <aside className="aboutMe-container">
-        <div className="text-container">texto</div>
+        <div className="am-text-container"><h3>SOBRE MÍ</h3>{aboutMe}</div>
         <div className="video-container">
           <video muted controls autoPlay loop src="./assets/video_odon.mp4"></video>
         </div>

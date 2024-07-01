@@ -7,7 +7,7 @@ function Main() {
   return (
     <>
       <main className="contenedorMain">
-        <img src="/assets/person.png" alt="" />
+        <img src="/assets/person.png" className="foto-persona" alt="" />
         <div className="contTexto">
           <p className="textoMain">EXPERIENCIA PLACENTERA PARA PRESERVAR TU SALUD BUCAL!</p>
           <MenuButton 
