@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import "../styles/footer.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram} from "@fortawesome/free-brands-svg-icons";

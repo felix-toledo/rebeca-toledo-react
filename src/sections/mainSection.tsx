@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import "../styles/main.css";
 import MenuButton from "../components/buttons";
 
